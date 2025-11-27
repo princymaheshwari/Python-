@@ -1,0 +1,9 @@
+alphabet a b
+states q0 q1 q2
+start q0
+final q2
+trans q0:a:q0:push:a
+trans q0:b:q1:pop:a
+trans q0:$:q2:pop:$
+trans q1:b:q1:pop:a
+trans q1:$:q2:pop:$
