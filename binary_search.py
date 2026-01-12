@@ -14,4 +14,4 @@ if __name__ == "__main__":
     arr = [1, 3, 5, 7, 9, 11]
     target = 7
     idx = binary_search(arr, target, 0, len(arr) - 1)
-    print(idx)  # prints the index of the target or -1 if not found
+    print(idx) 
